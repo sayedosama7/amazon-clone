@@ -1,5 +1,8 @@
 import React from "react";
 import Phones from "../Cart/Phones";
+import Header from '../NavbarAndHeader/Header'
+import Navbar from '../NavbarAndHeader/Navbar'
+import Navbar2 from '../NavbarAndHeader/Navbar2'
 import { Container, Row, Col } from "react-bootstrap";
 function PhonesData () {
   const products = [
@@ -127,6 +130,9 @@ function PhonesData () {
   ];
   return (
     <section> 
+    <Header/>
+    <Navbar/>
+    <Navbar2 />
         <Container>
         <Row>
         {products.map((product, index) => (

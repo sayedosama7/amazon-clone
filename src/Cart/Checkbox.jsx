@@ -4,9 +4,16 @@ import { Container, Row,Button } from "react-bootstrap";
 import {Link} from 'react-router-dom'
 import './CheckOut.css'
 import CheckOutProducts from "./CheckOutProducts";
+import Header from '../NavbarAndHeader/Header'
+import Navbar from '../NavbarAndHeader/Navbar'
+import Navbar2 from '../NavbarAndHeader/Navbar2'
 function Checkout() {
   const { items } = useContext(CartContext);
   return (
+    <>
+      <Header/>
+      <Navbar/>
+      <Navbar2 />
     <section className="products">
           {items?.length === 0 ?(
             <>
@@ -30,6 +37,7 @@ function Checkout() {
               </div>
                 )}
     </section>
+    </>
   );
 }
 

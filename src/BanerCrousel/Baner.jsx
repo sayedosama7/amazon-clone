@@ -6,9 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Baner = () => {
 return (
     <>
-
     <Carousel className='img-banner1  ' >
-      
     <Carousel.Item>
         <img
         className=" img-banner" style={{width:"100%"}}

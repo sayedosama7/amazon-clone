@@ -3,9 +3,15 @@ import { Col, Container , Row  } from "react-bootstrap";
 import {Link} from 'react-router-dom'
 import './ProjectProductPage.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from '../NavbarAndHeader/Header'
+import Navbar from '../NavbarAndHeader/Navbar'
+import Navbar2 from '../NavbarAndHeader/Navbar2'
 function ProductTypes() {
 return (
     <>
+        <Header/>
+        <Navbar/>
+        <Navbar2 />
         <Container >
         <Link to='/'><img className='logoo' src='/Images/logo2.png' alt='' /></Link>
         <Row  className='ProductType'>

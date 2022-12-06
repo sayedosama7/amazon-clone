@@ -1,21 +1,30 @@
-import React from 'react'
+import React , {useState , useEffect}  from 'react'
 import { BrowserRouter , Routes, Route } from 'react-router-dom'
 import Home from './Home'
-import Header from './NavbarAndHeader/Header'
-import Navbar from './NavbarAndHeader/Navbar'
 import ProductTypes from './ProductTypes/ProductTypes'
 import Loginpage from './Login/Loginpage'
 import SignUp from './SignUp/SignUp'
 import Checkbox from './Cart/Checkbox'
 import PhonesData from './Cart/PhonesData'
 import { CartProvider } from "./CartContext";
+import DotLoader from "react-spinners/DotLoader";
 import './App.css'
 const App = () => {
+  const [loading,setLoading] =useState([false]);
+  useEffect(()=>{
+  setLoading(true)
+  setTimeout(()=>{
+  setLoading(false)
+  } , 500)
+} ,[])
+
   return (
     <CartProvider>
     <BrowserRouter>
-      <Header/>
-      <Navbar/>
+    {loading ? 
+    <div className="loader">
+    <DotLoader color={'#eec662'}  size={90} speedMultiplier={1} />
+    </div>:
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/signin' element={<Loginpage/>}/>
@@ -25,6 +34,7 @@ const App = () => {
       <Route path='/Checkbox' element={<Checkbox/>}/>
       <Route path='/phones' element={<PhonesData/>}/>
     </Routes>
+    }
     </BrowserRouter>
     </CartProvider>
   )

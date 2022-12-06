@@ -6,7 +6,6 @@ import './CheckOut.css'
 const CheckOutProducts = () => {
     const { items   } = useContext(CartContext);
     const { deleteAll } = useContext(CartContext);
-
   return (
     <>
         {items.map((item) => (
@@ -24,11 +23,9 @@ const CheckOutProducts = () => {
             </Col>
         ))}
         <div >
-        
                 <Link> <Button className='shoppingButton'onClick={() => deleteAll(items.id)}>Empty Cart</Button></Link></div>
-                
                 <Link to='/signin'> <Button className='shoppingButton3'>Contuie Shopping</Button></Link>
-                
+
     </>
   )
 }

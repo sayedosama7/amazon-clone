@@ -5,6 +5,9 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import {Col} from 'react-bootstrap'
+import Header from '../NavbarAndHeader/Header'
+import Navbar from '../NavbarAndHeader/Navbar'
+import Navbar2 from '../NavbarAndHeader/Navbar2'
 const Loginpage = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,6 +23,9 @@ const Loginpage = () => {
   
   return (
     <>
+      <Header/>
+      <Navbar/>
+      <Navbar2 />
     <Col lg={12}  md={12} sm={12}>
       < Link  to='/' ><img  className='photo' src='/Images/logo2.png' alt=''/> </Link>
       <form className='form' ref={form} onSubmit={sendEmail} >

@@ -5,6 +5,9 @@ import Google from "./Google";
 import {Link} from 'react-router-dom'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Header from '../NavbarAndHeader/Header'
+import Navbar from '../NavbarAndHeader/Navbar'
+import Navbar2 from '../NavbarAndHeader/Navbar2'
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -18,8 +21,10 @@ const Contact = () => {
       e.target.reset()
   };
   return (
-
     <>
+      <Header/>
+      <Navbar/>
+      <Navbar2 />
       <Container >
         <Link to='/'><img className="photo" src="/Images/logo2.png"  alt=''/> </Link>
         <h1 className='contactUs'>Contact Us</h1>

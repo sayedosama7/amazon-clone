@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar2.css'
 import {Col} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Navbar2 = () => {
   return (
     <>
