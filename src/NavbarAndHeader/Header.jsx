@@ -27,6 +27,10 @@ const Header = () => {
       
           <Nav className="nav_options ">
           <div className='navOptionLinks'>
+          <Link to="/signup" className='navOptionLinksOne'>Hello</Link>
+            <Link to='/signup' className='navOptionLinksTwo'  >Contact Us</Link>
+          </div>
+          <div className='navOptionLinks'>
             <Link to="/signin" className='navOptionLinksOne'>Hello</Link>
             <Link to='/signin' className='navOptionLinksTwo'  >Sign in</Link>
           </div>
@@ -36,16 +40,13 @@ const Header = () => {
           </div>
           <div className='navOptionLinks'>
           <Link to="/signin" className='navOptionLinksOne'>Your</Link>
-          <Link  className='navOptionLinksTwo' to="/signin">Prime</Link>
+          <Link className='navOptionLinksTwo' to="/signin">Prime</Link>
           </div>
           <div className='cartOption'>
             <Link to='/Checkbox' className='cartOptionOne'>
-            
             <i className="  fa-solid fa-cart-shopping"></i>  
             </Link>
-            
             <Link to='/Checkbox' className='cartCount'>{items.length}</Link>
-
           </div>
           </Nav>
           </Navbar.Collapse>      

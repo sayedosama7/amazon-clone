@@ -18,16 +18,15 @@ export const SidebarData = [
     cName:"nav-text"
 },
 {
-    title :"New Release" ,
-    path : "/MobilePhones",
-    cName:"nav-text"
-},
-{
     title :"Movers & Shakers" ,
     path : "/MobilePhones",
     cName:"nav-text"
 },
-
+{
+    title :"Contact Us" ,
+    path : "/signup",
+    cName:"nav-text"
+},
 {
     title :"Digital Content And Devices" ,
     path : "/MobilePhones",

@@ -9,16 +9,18 @@ import Header from '../NavbarAndHeader/Header'
 import Navbar from '../NavbarAndHeader/Navbar'
 import Navbar2 from '../NavbarAndHeader/Navbar2'
 const Contact = () => {
+
   const form = useRef();
   const sendEmail = (e) => {
+    alert("Thank You For Registration")
     e.preventDefault();
-    emailjs.sendForm('service_ziuu36l', 'template_5rqi42w', form.current, 't8DwNgBD8Nh04BlOg')
-    .then((result) => {
-          console.log(result.text);
+    emailjs.sendForm('service_22mtmwk', 'template_yzrxg2k', form.current, 't8DwNgBD8Nh04BlOg')
+      .then((result) => {
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
   };
   return (
     <>
@@ -74,10 +76,10 @@ const Contact = () => {
         </Col>
 
         <Col lg={6} md={6} sm={12} className="form" >
-      <form className='form' ref={form} onSubmit={sendEmail} >
-        <h2>Creat account</h2>
+        <form className='form' ref={form} onSubmit={sendEmail}>
+        <h2>Create account</h2>
         <div>
-        <label> Your Name</label>
+        <label> Your Name </label>
         </div>
         <div>
           <input type="text" name="user_name" />
@@ -101,7 +103,7 @@ const Contact = () => {
         <label>Re-enter password</label>
         </div>
         <div>
-          <input type="password" name="user_re-password" />
+          <input type="password" name="user_re_password" />
         </div>
         <Link to='/'><button>Create your Amazon account</button></Link>
         <h5>By creating an accoun, you agree to Amazon's <Link to='/'className='link'> Conditions of Use</Link> and <Link to='/'className='link'>Privacy Notice.</Link></h5>

@@ -48,7 +48,7 @@ return (
     <Link to ="/MobilePhones" className='headerLinksOption'>Fashion</Link>
     <Link to ="/MobilePhones" className='headerLinksOption'>Home</Link>
     <Link to ="/MobilePhones" className='headerLinksOption'>Grocery</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Toys&Games</Link>
+    <Link to ="/signup" className='headerLinksOption'>Contact Us</Link>
     </div>
     <Link to='/'>
     <img className='headerImg' src='/Images/gaming-swm._CB430661085_.jpg' alt=''/>

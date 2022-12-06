@@ -10,9 +10,10 @@
     font-weight: bold;
     line-height: 27.3px;
     color: #0f1111d5;
+    padding-top:35px;
   }
   .product  img {
-    height: 270px;
+    height: 300px;
     width: 280px;
     margin-bottom: 5px;
   }

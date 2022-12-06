@@ -11,7 +11,7 @@ const Navbar2 = () => {
     <div className='header_links0' >
     <Link to ="/MobilePhones"  className='headerLinksOption0'>MobilePhones</Link>
     <Link to ="/MobilePhones" className='headerLinksOption0'>Electronics</Link>
-    <Link to ="/" className='headerLinksOption0'>Help</Link>
+    <Link to ="/signup" className='headerLinksOption'>Contact Us</Link>
     </div>
     </Col>
     </>

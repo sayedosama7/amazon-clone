@@ -111,8 +111,11 @@ form{
 }
 .amazon{
 text-align: center;
+font-size:60px;
 margin-top: 50px;
 margin-bottom: 20px;
 color: black;
 text-decoration:#e7e7e7;
+font-family: "Times New Roman", Times, serif;
+
 }
