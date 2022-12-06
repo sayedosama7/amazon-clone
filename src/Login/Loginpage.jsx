@@ -27,7 +27,7 @@ const Loginpage = () => {
       <Navbar/>
       <Navbar2 />
     <Col lg={12}  md={12} sm={12}>
-      < Link  to='/' ><img  className='photo' src='/Images/logo2.png' alt=''/> </Link>
+    <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
       <form className='form' ref={form} onSubmit={sendEmail} >
         <h2>Sign in</h2>
         <div>

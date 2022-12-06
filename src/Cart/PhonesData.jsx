@@ -4,6 +4,7 @@ import Header from '../NavbarAndHeader/Header'
 import Navbar from '../NavbarAndHeader/Navbar'
 import Navbar2 from '../NavbarAndHeader/Navbar2'
 import { Container, Row, Col } from "react-bootstrap";
+import {Link} from 'react-router-dom'
 function PhonesData () {
   const products = [
     {
@@ -134,6 +135,8 @@ function PhonesData () {
     <Navbar/>
     <Navbar2 />
         <Container>
+        <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
+
         <Row>
         {products.map((product, index) => (
             <Col lg='3' md='6' sm='12' key={index} className="proud-header">

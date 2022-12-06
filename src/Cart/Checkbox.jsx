@@ -17,7 +17,7 @@ function Checkout() {
     <section className="products">
           {items?.length === 0 ?(
             <>
-              <Link to='/'> <img className="photo" src="/Images/logo2.png"  alt=''/> </Link>
+        <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
               <div className='ifEmpty'>
               <h1>Your Cart is Empty</h1>
               <p>You have no items in your basket. To buy one or more items, click "Add To Cart" under to the item.</p>

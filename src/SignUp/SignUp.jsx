@@ -26,7 +26,7 @@ const Contact = () => {
       <Navbar/>
       <Navbar2 />
       <Container >
-        <Link to='/'><img className="photo" src="/Images/logo2.png"  alt=''/> </Link>
+      <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
         <h1 className='contactUs'>Contact Us</h1>
       </Container>
     <Container>

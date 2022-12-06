@@ -11,10 +11,8 @@
   width: 315px;
   background-color: white;
   z-index: 1;
-  
 }
 .product__info1 {
-  /* height: 40px; */
   font-size: 20px;
   font-weight: bold;
 }
@@ -55,6 +53,9 @@
   display: flex;
   align-items: center;
   background-color: white;
+}
+.productTypeAll{
+  margin-top: 50px;
 }
 .link{
   text-decoration: none;

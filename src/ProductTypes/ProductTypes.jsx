@@ -12,8 +12,9 @@ return (
         <Header/>
         <Navbar/>
         <Navbar2 />
-        <Container >
-        <Link to='/'><img className='logoo' src='/Images/logo2.png' alt='' /></Link>
+        <Container className='productTypeAll' >
+        <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
+
         <Row  className='ProductType'>
         <Col lg={3} md={6} sm={12}>
             <Link className='link' to='/Phones'  >
