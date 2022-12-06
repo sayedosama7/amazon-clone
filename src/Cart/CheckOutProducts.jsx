@@ -23,12 +23,12 @@ const CheckOutProducts = () => {
             </div>
             </Col>
         ))}
-        <div className='sasa'>
-        <div>
+        <div >
+        
                 <Link> <Button className='shoppingButton'onClick={() => deleteAll(items.id)}>Empty Cart</Button></Link></div>
-                <div>
+                
                 <Link to='/signin'> <Button className='shoppingButton3'>Contuie Shopping</Button></Link>
-                </div></div>
+                
     </>
   )
 }

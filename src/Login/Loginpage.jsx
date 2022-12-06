@@ -30,7 +30,7 @@ const Loginpage = () => {
         <div>
           <input type="email" name="user_email" />
         </div>
-        <Link  to='/'><button>Continue</button></Link>
+        <Link className='www' to='/'><button>Continue</button></Link>
         <h5>By signing in, you agree to Amazon's <Link to='/' className='link'> Conditions of Use</Link> and <Link to='/'className='link'>Privacy Notice.</Link></h5>
         <div className='help'>
           <div  className='icon'>
@@ -52,7 +52,6 @@ const Loginpage = () => {
       <h4>©1996–2022, Amazon.com, Inc. or its affiliates</h4>
       </div>
       </Col>
-      <img  className='imgForm' src='/Images/logo2.png' alt=''/> 
     </>
   )
 }

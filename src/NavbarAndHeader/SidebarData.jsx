@@ -8,7 +8,7 @@ export const SidebarData = [
         cName:"nav-text2"
     },
 {
-    title :"Trending" ,
+    title :"MobilePhones" ,
     path : "/MobilePhones",
     cName:"nav-text"
 },

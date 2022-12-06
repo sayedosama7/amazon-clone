@@ -9,6 +9,7 @@ import SignUp from './SignUp/SignUp'
 import Checkbox from './Cart/Checkbox'
 import PhonesData from './Cart/PhonesData'
 import { CartProvider } from "./CartContext";
+import './App.css'
 const App = () => {
   return (
     <CartProvider>

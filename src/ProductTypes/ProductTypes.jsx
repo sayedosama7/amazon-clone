@@ -10,25 +10,25 @@ return (
         <Link to='/'><img className='logoo' src='/Images/logo2.png' alt='' /></Link>
         <Row  className='ProductType'>
         <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'  >
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/Honor.jpg" alt='' />
-            <p>Honor</p>
+            <p className='qqq'>Honor</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/huawei.jpg" alt='' />
             <p>huawei</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/iphone.jpg" alt='' />
             <p>iphone</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/Nokia.jpg" alt='' />
             <p>Nokia</p>
             </Link>
@@ -37,25 +37,25 @@ return (
 
         <Row  className='ProductType'>
         <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/Oppo.jpg" alt='' />
             <p>Oppo</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/Realme.jpg" alt='' />
             <p>Realme</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/samsung.jpg" alt='' />
             <p>samsung</p>
             </Link>
             </Col>
             <Col lg={3} md={6} sm={12}>
-            <Link to='/Phones'>
+            <Link className='link' to='/Phones'  >
             <img src="/Images/ProductTypePhones/Xiaomi.jpg" alt='' />
             <p>Xiaomi</p>
             </Link>

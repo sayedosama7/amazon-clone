@@ -21,7 +21,7 @@ const Contact = () => {
 
     <>
       <Container >
-        <Link> <img className="photo" src="/Images/logo2.png"  alt=''/> </Link>
+        <Link to='/'><img className="photo" src="/Images/logo2.png"  alt=''/> </Link>
         <h1 className='contactUs'>Contact Us</h1>
       </Container>
     <Container>

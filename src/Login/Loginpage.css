@@ -4,16 +4,18 @@ form{
     border: 1px solid rgb(207, 193, 193);
     border-radius: 5px;
 }
-.imgForm{
-    width: 100px;
-    padding-left: 623px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+.photo{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 .form h2{
     color: rgba(26, 25, 25, 0.774);
     font-family:"Amazon Ember",Arial,sans-serif;
     padding-left: 30px;
+    padding-top: 10px;
 }
 .form label{
     color: rgba(14, 13, 13, 0.774);
@@ -25,7 +27,7 @@ form{
 .form input{
     margin-top: 5px;
     margin-left: 30px;
-    width: 280px;
+    width: 300px;
     height: 25px;
     border-radius: 3px;
     border: 1px solid gray;
@@ -34,7 +36,7 @@ form{
 .form button{
     margin-top: 15px;
     margin-left: 30px;
-    width: 280px;
+    width: 300px;
     height: 30px;
     background-color:   #eec662;
     border-radius: 3px;
@@ -66,6 +68,7 @@ form{
     color: rgb(0, 110, 255);
     padding-left: 0px;
     font-size: 13px;
+    text-decoration: none;
 }
 .helpLink:hover{
     border-bottom: 1px solid crimson;

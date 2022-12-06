@@ -9,7 +9,6 @@ const Header = () => {
   return (
     <>
   <Navbar className='header' expand="lg" >
-      
       <div className='nav_left'>
       <div>
       <Link to="/"> <img className='nav_img' src='/Images/logo.png' alt=''/></Link>

@@ -14,9 +14,13 @@ import ProductSlider5 from './ProductSlider/ProductSlider5'
 import ProductSlider6 from './ProductSlider/ProductSlider6'
 import ProductSlider7 from './ProductSlider/ProductSlider7'
 import ProductSlider8 from './ProductSlider/ProductSlider8'
+import Navbar2 from './NavbarAndHeader/Navbar2'
+import './App.css'
 const HOME = () => {
   return (
     <>
+    
+    <Navbar2 />
     <Baner />
     <Product1 />
     <Product2 />

@@ -80,7 +80,6 @@
         position: absolute;
         justify-content: center;
         }
-
     .button1 {
         display: none;
         }
@@ -107,6 +106,6 @@
 @media only screen and (max-width:600px) {
     .footer2 img{
         position: absolute;
-        left: 190px;
+        left: 180px;
         }}
                     /*end media querry */

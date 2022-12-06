@@ -29,8 +29,6 @@ function Checkout() {
               </Container>
               </div>
                 )}
-
-
     </section>
   );
 }

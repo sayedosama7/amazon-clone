@@ -1,4 +1,4 @@
-  .products .col-md-3 .card button{
+.products .col-md-3 .card button{
     background: white;
     color: #0F1111;
     text-decoration: none;
@@ -12,15 +12,14 @@
     color: #0F1111;
     border-color: #FCD200;
   }
-
+  .products{
+    background-color: white;
+  }
   .products h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
   }
-.shoppingButton{
-margin-left: 50px;
-}
 .col{
     margin-bottom: 20px;
 }
@@ -37,7 +36,7 @@ font-weight: bolder;
   width: 200px;
   height: 35px;
   border-radius: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .shoppingButton1:hover{
   background: #fcd205;
@@ -71,10 +70,6 @@ font-weight: bolder;
     font-size: 17px;
     font-weight: 800;
   }
-.sasa{
-  display: flex;
-  margin-bottom: 50px;
-}
 .shoppingButton3{
   background: white;
   color: #0F1111;
@@ -83,7 +78,8 @@ font-weight: bolder;
   width: 200px;
   height: 35px;
   border-radius: 60px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 .shoppingButton3:hover{
   background: #fcd205;
