@@ -1,24 +1,23 @@
-import React from "react";
+import React , { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./SignUp.css";
 import Google from "./Google";
 import {Link} from 'react-router-dom'
 import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
 import Header from '../NavbarAndHeader/Header'
 import Navbar from '../NavbarAndHeader/Navbar'
 import Navbar2 from '../NavbarAndHeader/Navbar2'
-const Contact = () => {
-
+export const Loginpage = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
-    alert("Thank You For Registration")
     e.preventDefault();
-    emailjs.sendForm('service_22mtmwk', 'template_yzrxg2k', form.current, 't8DwNgBD8Nh04BlOg')
+    alert("Thank You For Registration")
+    emailjs.sendForm("service_22mtmwk", "template_yzrxg2k" , form.current, "Nvn5kxzKoS5VN4GHn")
       .then((result) => {
-        console.log(result.text);
+          console.log(result.text);
       }, (error) => {
-        console.log(error.text);
+          console.log(error.text);
       });
     e.target.reset()
   };
@@ -103,7 +102,7 @@ const Contact = () => {
         <label>Re-enter password</label>
         </div>
         <div>
-          <input type="password" name="user_re_password" />
+          <input type="password"  />
         </div>
         <Link to='/'><button>Create your Amazon account</button></Link>
         <h5>By creating an accoun, you agree to Amazon's <Link to='/'className='link'> Conditions of Use</Link> and <Link to='/'className='link'>Privacy Notice.</Link></h5>
@@ -131,4 +130,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Loginpage;

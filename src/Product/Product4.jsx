@@ -9,7 +9,7 @@ function Product4({ id , title, image, price, rating }) {
       <p className='product__info'>{title}</p>
       <img src={image} alt='' />   
     <div> 
-      <Link className='buttun' to='#'>See more</Link>
+      <Link className='buttun' to='/MobilePhones'>See more</Link>
     </div>  
     </div>
   )

@@ -1,13 +1,13 @@
 import React from 'react'
 import './Footer.css'
-import {Col , Row} from 'react-bootstrap'
+import { Container ,Col , Row} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom'
 import LanguageIcon from '@mui/icons-material/Language';
 const Footer = () => {
   return (
     <>
-    <div className='footer'>
+    <Container fluid className='footer'>
         <Row  >
         <Col className='footer1' lg={3} md={6} sm={12}>
             <Link to='/' className='footerLink'><h4>Get to Know Us</h4></Link>
@@ -50,14 +50,7 @@ const Footer = () => {
         </div>
         </div>
         </Row>
-    </div>
-
-    
-    
-    
-    
-    
-    
+    </Container>
     </>
   )
 }

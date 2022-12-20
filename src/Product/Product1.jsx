@@ -8,7 +8,7 @@ function Product1({ id , title, image, price, rating }) {
       <p className='product__info'>{title}</p>
       <img src={image} alt=''/>   
       <div> 
-      <Link to='' className='buttun'>See more</Link>
+      <Link to='/MobilePhones' className='buttun'>See more</Link>
     </div>  
     </div>
     </div>

@@ -1,12 +1,12 @@
 import React from 'react'
 import './Footer2.css'
-import {Col , Row} from 'react-bootstrap'
+import {Container , Col , Row} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom'
 const Footer2 = () => {
-  return (
+return (
     <>
-    <div className='footer3'>
+    <Container fluid className='footer3'>
         <Row>
         <Col className='footer11' >
             <Link to='/'className='footerLink'><h4>Get to Know Us</h4></Link>
@@ -38,9 +38,9 @@ const Footer2 = () => {
         </Col>
 
         </Row>
-    </div>
+    </Container>
 
-    <div className='footer30'>
+    <Container fluid className='footer30'>
         <Row>
         <Col className='footer11' >
         <Link to='/'className='footerLink'><h4>Let Us Help You</h4></Link>
@@ -69,18 +69,11 @@ const Footer2 = () => {
             <Link to='/'className='footerLink'><p  className='d'>Advertise Your Products</p></Link>
         </Col>
         </Row>
-    </div>
+    </Container>
     <div className='lastFooter'>
         <p>Conditions of Use & Sale Privacy NoticeInterest-Based Ads</p>
         <p>©1996–2022, Amazon.com, Inc. or its affiliates</p>
     </div>
-
-
-    
-    
-    
-    
-    
     </>
 )
 }
